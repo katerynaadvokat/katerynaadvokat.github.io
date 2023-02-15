@@ -8,11 +8,10 @@
   body {
     margin: 0px;
     padding: 0px;
-    background: #F8F8F8 url(images/overlay.png) repeat;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 12pt;
-    font-weight: 400;
-    color: rgba(0,0,0,.8);
+    font-weight: 450;
+    color: rgba(255, 255, 255, 0.8);
     text-align: center;
   }
   
@@ -22,6 +21,7 @@
     text-transform: uppercase;
     font-weight: 300;
     color: #2D2D2D;
+    text-align: center;
   }
   
   h2 {
@@ -60,6 +60,7 @@
     {
       display: inline-block;
       border: 1px solid rgba(0,0,0,.1);
+      
     }
     
     .image img
@@ -109,7 +110,7 @@
   .container {
     width: 1200px;
     margin: 0px auto;
-    text-align: center;
+    text-align:center;
   }
   
   .clearfix {
@@ -120,7 +121,8 @@
   
   #header-wrapper
   {
-    background: url(images/фон\ для\ сайту\ 1.jpg) no-repeat center center;
+    background: url(images/фон\ для\ сайту\ 1.jpg);
+    margin: auto;
     background-size: cover;
     width: 1300px;
     text-align: center;
@@ -214,7 +216,7 @@
     text-align: center;
     font-size: 16px;
     font-weight: 200;
-    color: rgba(255,255,255,0.5);
+    color: rgba(255, 255, 255, 0.5);
     border: none;
   }
   
@@ -234,7 +236,10 @@
   
   #page {
     overflow: hidden;
+    width: 1200px;
     padding: 5em 0em;
+    text-align: justify;
+    background-color: #1b1c1d;
   }
   
     #page img
@@ -245,20 +250,23 @@
     #page .title
     {
       margin-bottom: 2em;
+      text-align: justify;
     }
   
     #page .title h2
     {
       font-size: 1.5em;
       font-weight: 400;
-      color: rgba(0,0,0,0.8);
+      color: rgba(255, 252, 252, 0.8);
+      text-align: center;
     }
     
     #page .title .byline
     {
       display: block;
       padding-bottom: 2em;
-      color: rgba(0,0,0,0.7);
+      color: rgba(253, 251, 251, 0.7);
+      
     }
   
   /** CONTENT */
@@ -440,11 +448,11 @@
     {
       overflow: hidden;
       padding: 5em 0em;
-      background: rgba(0,0,0,.02);
+  
+      background: rgba(235, 228, 228, 0.02);
       background-image: url(images/overlay.png);
       background-repeat: repeat;
-      border-top: 1px solid rgba(0,0,0,.05);
-      text-align: justify;
+      border-top: 1px solid rgba(155, 59, 59, 0.05);
     }
     
     #portfolio
@@ -468,11 +476,13 @@
   
     #portfolio .title
     {
+      
     }
   
     #portfolio .title h2
     {
-      color: rgba(0,0,0,0.8);
+      color: rgba(12, 12, 12, 0.8);
+      
     }
     
     #portfolio .title .byline
@@ -480,14 +490,15 @@
       display: block;
       padding-bottom: 2em;
       color: rgba(0,0,0,0.7);
+      
     }
-  
     .column1,
     .column2,
     .column3,
     .column4
     {
       width: 282px;
+      
     }
     
     .column1,
@@ -527,7 +538,7 @@
       text-transform: uppercase;
       font-weight: 400;
       font-size: 1.1em;
-      color: #6F6F6F;
+      color: #aa4646;
     }
   
   /*********************************************************************************/
@@ -588,7 +599,5 @@
       text-align: center;
       color: rgba(255,255,255,1);
     }
- 
-    
-    
+  
     
